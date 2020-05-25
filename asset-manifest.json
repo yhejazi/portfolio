@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b567ea4c.chunk.css",
+    "main.js": "/static/js/main.c0208b7e.chunk.js",
+    "main.js.map": "/static/js/main.c0208b7e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.79c938e6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.79c938e6.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.acb0faf6.chunk.js": "/static/js/2.acb0faf6.chunk.js",
+    "static/js/2.acb0faf6.chunk.js.map": "/static/js/2.acb0faf6.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f25d4a5681f518d00586359f7c9fcdd5.js": "/precache-manifest.f25d4a5681f518d00586359f7c9fcdd5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.b567ea4c.chunk.css.map": "/static/css/main.b567ea4c.chunk.css.map",
+    "static/js/2.acb0faf6.chunk.js.LICENSE.txt": "/static/js/2.acb0faf6.chunk.js.LICENSE.txt",
+    "static/media/banner-bg.jpg": "/static/media/banner-bg.d304f62c.jpg",
+    "static/media/funko-logo.svg": "/static/media/funko-logo.2018bc20.svg",
+    "static/media/nike-logo.svg": "/static/media/nike-logo.1c685462.svg",
+    "static/media/pemco-logo.svg": "/static/media/pemco-logo.5b7fc62c.svg",
+    "static/media/profile.jpg": "/static/media/profile.cb2cb974.jpg",
+    "static/media/seiu-logo.svg": "/static/media/seiu-logo.67c527dc.svg",
+    "static/media/udacity-logo.svg": "/static/media/udacity-logo.64a2be4d.svg",
+    "static/media/uw-logo.svg": "/static/media/uw-logo.1979e924.svg",
+    "static/media/yasmine-hejazi-resume.pdf": "/static/media/yasmine-hejazi-resume.4030f5fc.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79c938e6.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.acb0faf6.chunk.js",
+    "static/css/main.b567ea4c.chunk.css",
+    "static/js/main.c0208b7e.chunk.js"
+  ]
+}
