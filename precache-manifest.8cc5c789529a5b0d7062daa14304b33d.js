@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50498e3277e478d62e7035e72da04c1d",
+    "revision": "77346b3462fd2c48391abea26c0597de",
     "url": "/index.html"
   },
   {
-    "revision": "18750eb1681d80c791cb",
+    "revision": "ad1cf46220cf44533f44",
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "316e757bbc4005adab0e",
-    "url": "/static/css/main.6592dead.chunk.css"
+    "revision": "875b74e31be0a2dcb415",
+    "url": "/static/css/main.b243818e.chunk.css"
   },
   {
-    "revision": "18750eb1681d80c791cb",
-    "url": "/static/js/2.932d003d.chunk.js"
+    "revision": "ad1cf46220cf44533f44",
+    "url": "/static/js/2.f0c18d55.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.932d003d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.f0c18d55.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "316e757bbc4005adab0e",
-    "url": "/static/js/main.b5a4dc82.chunk.js"
+    "revision": "875b74e31be0a2dcb415",
+    "url": "/static/js/main.7dbc7858.chunk.js"
   },
   {
     "revision": "9b4452dcf5ff001e0742",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/profile.cb2cb974.jpg"
   },
   {
-    "revision": "652afd308c5fa5f1f0d9019208460cde",
-    "url": "/static/media/project-chronic.652afd30.png"
+    "revision": "949d738297f0f9d459d0edabd47ed88d",
+    "url": "/static/media/project-chronic.949d7382.png"
   },
   {
     "revision": "af8a8f546b818ee83fb5f5b31031e373",
@@ -60,8 +60,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/project-faces.54ac75de.jpg"
   },
   {
-    "revision": "9026d2eef811f0e01dda378e46f73f35",
-    "url": "/static/media/project-vg-sales.9026d2ee.png"
+    "revision": "7674da7d2e09d5f074bf5c7d5577024e",
+    "url": "/static/media/project-lyric.7674da7d.png"
+  },
+  {
+    "revision": "2db6a6cd7b9cfc6ecd879070c5e9a811",
+    "url": "/static/media/project-tv.2db6a6cd.jpg"
+  },
+  {
+    "revision": "3a7156dcbef032e44e5df0bbdc31a733",
+    "url": "/static/media/project-vg-sales.3a7156dc.png"
   },
   {
     "revision": "67c527dce3f39e84ec65d9dab32ef4ee",
