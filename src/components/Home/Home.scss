@@ -96,3 +96,19 @@
   text-align: center;
   align-self: center;
 }
+
+.project-card {
+  border-radius: 1rem;
+  background-color: #f7f9fb;
+  padding: 20px;
+
+  &:hover {
+    background-color: #ecf0f4;
+  }
+}
+
+.project-title {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}

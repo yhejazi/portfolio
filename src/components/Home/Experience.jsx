@@ -17,18 +17,18 @@ const Experience = () => (
     <Container>
       <h1 className="mono heading">Education</h1>
       <Row>
-        <Col md={6}>
+        <Col md={5}>
           <div className="experience-name">
             <div className="experience-logo">
               <img src={UwLogo} alt="UW logo" />
             </div>
             <div>
               <h4>University of Washington</h4>
-              <div className="gray">Seattle, WA&ensp;|&ensp;Dec. 2019</div>
+              <div className="gray">Dec. 2019 <br /> Seattle, WA</div>
             </div>
           </div>
         </Col>
-        <Col md={6}>
+        <Col md={7}>
           <p className="lead">
             B.S. Informatics - Data Science option <br />
             B.A. Linguistics
@@ -39,7 +39,7 @@ const Experience = () => (
         </Col>
       </Row>
       <Row className="mt-4">
-        <Col md={6}>
+        <Col md={5}>
           <div className="experience-name">
             <div className="experience-logo">
               <img src={UdacityLogo} alt="Udacity logo" />
@@ -50,7 +50,7 @@ const Experience = () => (
             </div>
           </div>
         </Col>
-        <Col md={6}>
+        <Col md={7}>
           <p className="lead">
             Deep Learning Nanodegree <br />
             Data Foundations Nanodegree
@@ -61,18 +61,18 @@ const Experience = () => (
     <Container className="mt-5">
       <h1 className="mono heading">Work</h1>
       <Row>
-        <Col md={6}>
+        <Col md={4}>
           <div className="experience-name">
             <div className="experience-logo">
              <img src={FunkoLogo} alt="Funko logo" />
             </div>
             <div>
               <h4>Funko</h4>
-              <div className="gray">Everett, WA&ensp;|&ensp;Jan. 2020 – Present</div>
+              <div className="gray">Jan. 2020 – Present <br /> Everett, WA</div>
             </div>
           </div>
         </Col>
-        <Col md={6}>
+        <Col md={8}>
           <p className="lead">
             Product Development Coordinator
           </p>
@@ -85,18 +85,18 @@ const Experience = () => (
         </Col>
       </Row>
       <Row className="mt-4">
-        <Col md={6}>
+        <Col md={4}>
           <div className="experience-name">
             <div className="experience-logo">
              <img src={NikeLogo} alt="Nike logo" />
             </div>
             <div>
               <h4>Nike</h4>
-              <div className="gray">Beaverton, OR&ensp;|&ensp;June 2019 – Aug. 2019</div>
+              <div className="gray">June 2019 – Aug. 2019 <br /> Beaverton, OR</div>
             </div>
           </div>
         </Col>
-        <Col md={6}>
+        <Col md={8}>
           <p className="lead">
             Software Engineer Intern
           </p>
@@ -108,18 +108,18 @@ const Experience = () => (
         </Col>
       </Row>
       <Row className="mt-4">
-        <Col md={6}>
+        <Col md={4}>
           <div className="experience-name">
             <div className="experience-logo">
              <img src={SeiuLogo} alt="SEIU logo" />
             </div>
             <div>
               <h4>SEIU Benefits Group</h4>
-              <div className="gray">Seattle, WA&ensp;|&ensp;Jan. 2019 – June 2019</div>
+              <div className="gray">Jan. 2019 – June 2019 <br /> Seattle, WA</div>
             </div>
           </div>
         </Col>
-        <Col md={6}>
+        <Col md={8}>
           <p className="lead">
             Data Analyst Intern
           </p>
@@ -131,18 +131,18 @@ const Experience = () => (
         </Col>
       </Row>
       <Row className="mt-4">
-        <Col md={6}>
+        <Col md={4}>
           <div className="experience-name">
             <div className="experience-logo">
              <img src={PemcoLogo} alt="PEMCO logo" />
             </div>
             <div>
               <h4>PEMCO Insurance</h4>
-              <div className="gray">Seattle, WA&ensp;|&ensp;June. 2018 – Aug. 2018</div>
+              <div className="gray">June. 2018 – Aug. 2018 <br /> Seattle, WA</div>
             </div>
           </div>
         </Col>
-        <Col md={6}>
+        <Col md={8}>
           <p className="lead">
             Data Analyst Intern
           </p>
