@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc(100vh) !important;
+  height: calc(95vh) !important;
 }
 
 .banner-content {
@@ -29,8 +29,16 @@
     width: 56px;
     height: 56px;
     font-size: 28px;
+    background-color: #262A34;
+    border-color: #262A34;
+
+    &:hover {
+      background-color: darkslategrey;
+      border-color: darkslategrey;
+    }
   }
 }
+
 
 .about {
   background-color: #FAFAFA;

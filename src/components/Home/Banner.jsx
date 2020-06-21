@@ -22,7 +22,7 @@ const Banner = () => (
           <h2 className="mono">Product Manager &amp; Data Scientist</h2>
         </div>
         <div className="scroll-down">
-          <Button onClick={() => zenscroll.toY(800)}>
+          <Button onClick={() => zenscroll.toY(650)}>
             <FaChevronDown />
           </Button>
         </div>

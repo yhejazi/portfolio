@@ -6,6 +6,8 @@ import dogPhoto from '../../assets/project-dog.jpg';
 import chronicPhoto from '../../assets/project-chronic.png';
 import facesPhoto from '../../assets/project-faces.jpg';
 import vgSalesPhoto from '../../assets/project-vg-sales.png';
+import tvPhoto from '../../assets/project-tv.jpg';
+import lyricPhoto from '../../assets/project-lyric.png';
 
 const Projects = () => (
   <div className="py-5">
@@ -13,14 +15,14 @@ const Projects = () => (
       <h1 className="mono">Projects</h1>
       <Row>
         <ProjectCard
-          title="Dog Breed Classifier"
+          title="Dog Classification App"
           image={dogPhoto}
           link="https://github.com/yhejazi/deep-learning-nd/tree/master/project-dog-classification"
         />
         <ProjectCard
-          title="HCA Health Analysis"
-          image={chronicPhoto}
-          link="https://github.com/capstone2019/Capstone2019"
+          title="TV Script Generation"
+          image={tvPhoto}
+          link="https://github.com/yhejazi/deep-learning-nd/tree/master/project-tv-script-generation"
         />
         <ProjectCard
           title="Face Generation"
@@ -30,9 +32,19 @@ const Projects = () => (
       </Row>
       <Row className="mt-4">
         <ProjectCard
+          title="HCA Health Analysis"
+          image={chronicPhoto}
+          link="https://ischool.uw.edu/capstone/projects/2019/health-equity-home-care-aides-investigating-chronic-disease-prevalence"
+        />
+        <ProjectCard
           title="Video Game Sales Viz"
           image={vgSalesPhoto}
           link="https://github.com/yhejazi/info474/tree/master/a3"
+        />
+        <ProjectCard
+          title="Song Lyric Web Scraper"
+          image={lyricPhoto}
+          link="https://github.com/yhejazi/song-lyric-scraper"
         />
       </Row>
     </Container>

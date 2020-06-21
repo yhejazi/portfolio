@@ -12,8 +12,13 @@ const About = () => (
       <Row className="about-row">
         <Col lg>
           <h1 className="mono">About Me</h1>
-          <p>My name is Yasmine, and I am a product manager, data scientist, and visualization nerd. <b>I like making things out of numbers and creating community. </b> <br /> <br />
-            I currently work as a Product Manager, but I'm always thinking about how I can use data to make smart business decisions. I am an avid dancer, baker, and Magic: The Gathering fan.
+          <p>My name is Yasmine, and I am a product manager, data scientist, and visualization nerd. 
+            I am a recent University of Washington Informatics &amp; Linguistics graduate with 2+ 
+            years experience in analytics through research and internships. 
+            <br /> <br />
+            <b>I like making things and meeting people!</b> I currently work as a Product Manager, but I'm always thinking about how I can use data 
+            to make smart business decisions. Outside of work, I am an avid dancer, baker, and Magic: 
+            The Gathering enthusiast.
           </p>
         </Col>
         <Col xs>
