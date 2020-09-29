@@ -17,7 +17,7 @@ const Experience = () => (
     <Container>
       <h1 className="mono heading">Education</h1>
       <Row>
-        <Col md={5}>
+        <Col md={6}>
           <div className="experience-name">
             <div className="experience-logo">
               <img src={UwLogo} alt="UW logo" />
@@ -28,18 +28,18 @@ const Experience = () => (
             </div>
           </div>
         </Col>
-        <Col md={7}>
-          <p className="lead">
+        <Col md={6}>
+          <h4>
             B.S. Informatics - Data Science option <br />
             B.A. Linguistics
-          </p>
+          </h4>
           <p className="gray">
             GPA 3.8 / Dean's List
           </p>
         </Col>
       </Row>
       <Row className="mt-4">
-        <Col md={5}>
+        <Col md={6}>
           <div className="experience-name">
             <div className="experience-logo">
               <img src={UdacityLogo} alt="Udacity logo" />
@@ -50,18 +50,18 @@ const Experience = () => (
             </div>
           </div>
         </Col>
-        <Col md={7}>
-          <p className="lead">
+        <Col md={6}>
+          <h4>
             Deep Learning Nanodegree <br />
             Data Foundations Nanodegree
-          </p>
+          </h4>
         </Col>
       </Row>
     </Container>
     <Container className="mt-5">
       <h1 className="mono heading">Work</h1>
       <Row>
-        <Col md={4}>
+        <Col md={6}>
           <div className="experience-name">
             <div className="experience-logo">
              <img src={FunkoLogo} alt="Funko logo" />
@@ -72,10 +72,10 @@ const Experience = () => (
             </div>
           </div>
         </Col>
-        <Col md={8}>
-          <p className="lead">
+        <Col md={6}>
+          <h4>
             Product Development Coordinator
-          </p>
+          </h4>
           <ul className="light-gray">
             <li>Managing product development in cross-functional team for 120+ product lines, $16M in revenue</li>
             <li>Determining product and stakeholder requirements between artists, licensors, factories, and retailers</li>
@@ -85,7 +85,7 @@ const Experience = () => (
         </Col>
       </Row>
       <Row className="mt-4">
-        <Col md={4}>
+        <Col md={6}>
           <div className="experience-name">
             <div className="experience-logo">
              <img src={NikeLogo} alt="Nike logo" />
@@ -96,10 +96,10 @@ const Experience = () => (
             </div>
           </div>
         </Col>
-        <Col md={8}>
-          <p className="lead">
+        <Col md={6}>
+          <h4>
             Software Engineer Intern
-          </p>
+          </h4>
           <ul className="light-gray">
             <li>Led feature discovery and data modeling to be used to improve WiFi network for new Nike HQ buildings</li>
             <li>Improved computer jobs efficiency by identifying 60% of cause of failures using machine learning</li>
@@ -108,7 +108,7 @@ const Experience = () => (
         </Col>
       </Row>
       <Row className="mt-4">
-        <Col md={4}>
+        <Col md={6}>
           <div className="experience-name">
             <div className="experience-logo">
              <img src={SeiuLogo} alt="SEIU logo" />
@@ -119,10 +119,10 @@ const Experience = () => (
             </div>
           </div>
         </Col>
-        <Col md={8}>
-          <p className="lead">
+        <Col md={6}>
+          <h4>
             Data Analyst Intern
-          </p>
+          </h4>
           <ul className="light-gray">
             <li>Lead role in sponsored Capstone project to analyze prevalence of chronic diseases in home care aides</li>
             <li>Identified 5 key demographics for business needs through statistical analysis, validation, &amp; dashboarding</li>
@@ -131,7 +131,7 @@ const Experience = () => (
         </Col>
       </Row>
       <Row className="mt-4">
-        <Col md={4}>
+        <Col md={6}>
           <div className="experience-name">
             <div className="experience-logo">
              <img src={PemcoLogo} alt="PEMCO logo" />
@@ -142,10 +142,10 @@ const Experience = () => (
             </div>
           </div>
         </Col>
-        <Col md={8}>
-          <p className="lead">
+        <Col md={6}>
+          <h4>
             Data Analyst Intern
-          </p>
+          </h4>
           <ul className="light-gray">
             <li>Improved Auto Claims program performance by 25% by analyzing areas of inefficiencies</li>
             <li>Introduced automated approach to clean and mine multi-year claims data</li>

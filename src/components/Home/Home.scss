@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc(95vh) !important;
+  height: 100vh !important;
+  max-height: 700px;
 }
 
 .banner-content {
@@ -32,13 +33,13 @@
     background-color: #262A34;
     border-color: #262A34;
 
-    &:hover {
-      background-color: darkslategrey;
-      border-color: darkslategrey;
+    &:hover, &:focus, &:active {
+      background-color: darkslategrey !important;
+      border-color: darkslategrey !important;
+      box-shadow: none !important;
     }
   }
 }
-
 
 .about {
   background-color: #FAFAFA;
@@ -67,8 +68,6 @@
   font-size: 24px;
   align-items: center;
   color: #212529;
-
-
 
   & > svg {
     margin-right: 14px;
@@ -109,6 +108,7 @@
   border-radius: 1rem;
   background-color: #f7f9fb;
   padding: 20px;
+  margin-bottom: 2rem;
 
   &:hover {
     background-color: #ecf0f4;
@@ -119,4 +119,19 @@
   text-align: center;
   font-size: 1.4rem;
   margin-top: 1rem;
+}
+
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: center;
+}
+
+.navbar {
+  background-color: #262A34;
+}
+
+.nav-link {
+  color: white;
 }

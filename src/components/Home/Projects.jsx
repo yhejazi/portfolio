@@ -29,8 +29,6 @@ const Projects = () => (
           image={facesPhoto}
           link="https://github.com/yhejazi/deep-learning-nd/tree/master/project-face-generation"
         />
-      </Row>
-      <Row className="mt-4">
         <ProjectCard
           title="HCA Health Analysis"
           image={chronicPhoto}

@@ -7,7 +7,7 @@ import profileImg from '../../assets/profile.jpg';
 import resume from '../../assets/yasmine-hejazi-resume.pdf';
 
 const About = () => (
-  <div className="about">
+  <div className="about" id="about-me">
     <Container>
       <Row className="about-row">
         <Col lg>

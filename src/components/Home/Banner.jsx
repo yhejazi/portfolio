@@ -12,7 +12,7 @@ const Banner = () => (
       layers={[
         {
           image: bannerBg,
-          amount: 0.4
+          amount: 0.2
         }
       ]}
     >
@@ -22,7 +22,7 @@ const Banner = () => (
           <h2 className="mono">Product Manager &amp; Data Scientist</h2>
         </div>
         <div className="scroll-down">
-          <Button onClick={() => zenscroll.toY(650)}>
+          <Button onClick={() => zenscroll.center(document.getElementById("about-me"))}>
             <FaChevronDown />
           </Button>
         </div>
