@@ -1,4 +1,4 @@
 # Personal Website & Portfolio
 
-https://yasminehejazi.com/
+[yasminehejazi.com](https://yasminehejazi.com/)
 
