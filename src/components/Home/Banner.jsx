@@ -22,7 +22,7 @@ const Banner = () => (
           <h2 className="mono">Product Manager &amp; Data Scientist</h2>
         </div>
         <div className="scroll-down">
-          <Button onClick={() => zenscroll.center(document.getElementById("about-me"))}>
+          <Button onClick={() => zenscroll.center(document.getElementById("about"))}>
             <FaChevronDown />
           </Button>
         </div>

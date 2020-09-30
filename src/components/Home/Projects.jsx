@@ -1,6 +1,5 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import ProjectCard from './ProjectCard';
 import dogPhoto from '../../assets/project-dog.jpg';
 import chronicPhoto from '../../assets/project-chronic.png';
@@ -10,41 +9,54 @@ import tvPhoto from '../../assets/project-tv.jpg';
 import lyricPhoto from '../../assets/project-lyric.png';
 
 const Projects = () => (
-  <div className="py-5">
+  <div className="py-5" id="projects">
     <Container>
-      <h1 className="mono">Projects</h1>
-      <Row>
+      <h1 className="mono mb-4">Projects</h1>
+    </Container>
+    <Container className="bg-white">
+        <ProjectCard
+          title="Starbucks Cawfee"
+          image={dogPhoto}
+          description="Cawfee! Green tea! Cawfee! Green tea! Cawfee! Green tea! Cawfee! Green tea! Cawfee! Green tea! Cawfee! Green tea! Cawfee! Green tea!"
+          github="https://github.com/yhejazi/deep-learning-nd/tree/master/project-dog-classification"
+          blog="https://medium.com"
+        />
+        <hr />
         <ProjectCard
           title="Dog Classification App"
           image={dogPhoto}
-          link="https://github.com/yhejazi/deep-learning-nd/tree/master/project-dog-classification"
+          github="https://github.com/yhejazi/deep-learning-nd/tree/master/project-dog-classification"
         />
+        <hr />
         <ProjectCard
           title="TV Script Generation"
           image={tvPhoto}
-          link="https://github.com/yhejazi/deep-learning-nd/tree/master/project-tv-script-generation"
+          github="https://github.com/yhejazi/deep-learning-nd/tree/master/project-tv-script-generation"
         />
+        <hr />
         <ProjectCard
           title="Face Generation"
           image={facesPhoto}
-          link="https://github.com/yhejazi/deep-learning-nd/tree/master/project-face-generation"
+          github="https://github.com/yhejazi/deep-learning-nd/tree/master/project-face-generation"
         />
+        <hr />
         <ProjectCard
           title="HCA Health Analysis"
           image={chronicPhoto}
-          link="https://ischool.uw.edu/capstone/projects/2019/health-equity-home-care-aides-investigating-chronic-disease-prevalence"
+          github="https://ischool.uw.edu/capstone/projects/2019/health-equity-home-care-aides-investigating-chronic-disease-prevalence"
         />
+        <hr />
         <ProjectCard
           title="Video Game Sales Viz"
           image={vgSalesPhoto}
-          link="https://github.com/yhejazi/info474/tree/master/a3"
+          github="https://github.com/yhejazi/info474/tree/master/a3"
         />
+        <hr />
         <ProjectCard
           title="Song Lyric Web Scraper"
           image={lyricPhoto}
-          link="https://github.com/yhejazi/song-lyric-scraper"
+          github="https://github.com/yhejazi/song-lyric-scraper"
         />
-      </Row>
     </Container>
   </div>
 );

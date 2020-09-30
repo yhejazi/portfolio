@@ -13,53 +13,9 @@ import PemcoLogo from '../../assets/pemco-logo.svg';
 
 
 const Experience = () => (
-  <div className="experience py-5">
+  <div className="experience py-5" id="experience">
     <Container>
-      <h1 className="mono heading">Education</h1>
-      <Row>
-        <Col md={6}>
-          <div className="experience-name">
-            <div className="experience-logo">
-              <img src={UwLogo} alt="UW logo" />
-            </div>
-            <div>
-              <h4>University of Washington</h4>
-              <div className="gray">Dec. 2019 <br /> Seattle, WA</div>
-            </div>
-          </div>
-        </Col>
-        <Col md={6}>
-          <h4>
-            B.S. Informatics - Data Science option <br />
-            B.A. Linguistics
-          </h4>
-          <p className="gray">
-            GPA 3.8 / Dean's List
-          </p>
-        </Col>
-      </Row>
-      <Row className="mt-4">
-        <Col md={6}>
-          <div className="experience-name">
-            <div className="experience-logo">
-              <img src={UdacityLogo} alt="Udacity logo" />
-            </div>
-            <div>
-              <h4>Udacity</h4>
-              <div className="gray">Jan. 2019 – Present</div>
-            </div>
-          </div>
-        </Col>
-        <Col md={6}>
-          <h4>
-            Deep Learning Nanodegree <br />
-            Data Foundations Nanodegree
-          </h4>
-        </Col>
-      </Row>
-    </Container>
-    <Container className="mt-5">
-      <h1 className="mono heading">Work</h1>
+      <h1 className="mono heading">Experience</h1>
       <Row>
         <Col md={6}>
           <div className="experience-name">
@@ -151,6 +107,50 @@ const Experience = () => (
             <li>Introduced automated approach to clean and mine multi-year claims data</li>
             <li>Exceeded project base requirements &amp; presented key outcomes of analysis to company executives</li>
           </ul>
+        </Col>
+      </Row>
+    </Container>
+    <Container className="mt-5">
+      <h1 className="mono heading">Education</h1>
+      <Row>
+        <Col md={6}>
+          <div className="experience-name">
+            <div className="experience-logo">
+              <img src={UwLogo} alt="UW logo" />
+            </div>
+            <div>
+              <h4>University of Washington</h4>
+              <div className="gray">Dec. 2019 <br /> Seattle, WA</div>
+            </div>
+          </div>
+        </Col>
+        <Col md={6}>
+          <h4>
+            B.S. Informatics - Data Science option <br />
+            B.A. Linguistics
+          </h4>
+          <p className="gray">
+            GPA 3.8 / Dean's List
+          </p>
+        </Col>
+      </Row>
+      <Row className="mt-4">
+        <Col md={6}>
+          <div className="experience-name">
+            <div className="experience-logo">
+              <img src={UdacityLogo} alt="Udacity logo" />
+            </div>
+            <div>
+              <h4>Udacity</h4>
+              <div className="gray">Jan. 2019 – Present</div>
+            </div>
+          </div>
+        </Col>
+        <Col md={6}>
+          <h4>
+            Deep Learning Nanodegree <br />
+            Data Foundations Nanodegree
+          </h4>
         </Col>
       </Row>
     </Container>

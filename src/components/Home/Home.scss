@@ -104,23 +104,6 @@
   align-self: center;
 }
 
-.project-card {
-  border-radius: 1rem;
-  background-color: #f7f9fb;
-  padding: 20px;
-  margin-bottom: 2rem;
-
-  &:hover {
-    background-color: #ecf0f4;
-  }
-}
-
-.project-title {
-  text-align: center;
-  font-size: 1.4rem;
-  margin-top: 1rem;
-}
-
 .mr-auto {
 flex: 1;
 margin: auto !important;
@@ -132,6 +115,8 @@ justify-content: center;
   background-color: #262A34;
 }
 
-.nav-link {
-  color: white;
+a.nav-link {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-weight: 200;
 }
