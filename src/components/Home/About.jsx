@@ -40,7 +40,7 @@ const About = () => (
               <FaGithub />
               <div>GitHub</div>
             </a>
-            <a href="https://medium.com/@yazijazi" className="external-link">
+            <a href="https://medium.com/@yazihejazi" className="external-link">
               <FaMedium />
               <div>Medium</div>
             </a>
