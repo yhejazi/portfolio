@@ -12,13 +12,15 @@ const About = () => (
       <Row className="about-row">
         <Col lg>
           <h1 className="mono">About Me</h1>
-          <p>My name is Yasmine, and I am a product manager, data scientist, and visualization nerd.
-            I am a recent University of Washington Informatics &amp; Linguistics graduate with 2+
-            years experience in analytics through research and internships.
-            <br /> <br />
-            <b>I like making things and meeting people!</b> I currently work as a Product Manager, but I'm always thinking about how I can use data
-            to make smart business decisions. Outside of work, I am an avid dancer, baker, and Magic:
-            The Gathering enthusiast.
+          <p>
+          My name is Yasmine, and I am a product manager, data scientist, and visualization nerd. 
+          I am a 2019 University of Washington graduate with a dual degree in Informatics &amp; 
+          Linguistics. 
+          <br /> <br />
+          When I’m not working or coding, I write on Medium. I am currently a budding writer in 
+          publications such as The Startup &amp; Towards Data Science. Outside of work, I am an avid 
+          dancer, baker, and Magic: The Gathering enthusiast. You can often find me on the World of 
+          Warcraft Classic realm.
           </p>
         </Col>
         <Col xs>
