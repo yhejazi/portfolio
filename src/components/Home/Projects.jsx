@@ -35,7 +35,7 @@ const Projects = () => (
         />
         <hr />
         <ProjectCard
-          title="Dog Classification App"
+          title="Dog Breed Classification App"
           image={dogPhoto}
           description="I built a pipeline that includes pre-prossessing user-supplied images and 
           using a CNN to classify dog breeds. Given an image of a dog, the algorithm will identify 
@@ -45,7 +45,7 @@ const Projects = () => (
         />
         <hr />
         <ProjectCard
-          title="TV Script Generation"
+          title="Fake TV Script Generator"
           image={tvPhoto}
           description="I generated my own Seinfeld TV scripts using RNNs. I used a Seinfeld dataset 
           of scripts from 9 seasons to train the network to generate a new, 
@@ -54,7 +54,7 @@ const Projects = () => (
         />
         <hr />
         <ProjectCard
-          title="Face Generation"
+          title="Fake Human Face Generator"
           image={facesPhoto}
           description="I defined and trained a DCGAN on a dataset of faces. I created a generator 
           network to generate new images of faces that look as realistic as possible. When 
@@ -63,7 +63,7 @@ const Projects = () => (
         />
         <hr />
         <ProjectCard
-          title="Video Game Sales Interactive Viz"
+          title="Video Game Sales Interactive Visualization"
           image={vgSalesPhoto}
           description="My team implemented the interactive technique of a bubble chart using Javascript 
           and D3 in order to allow user exploration of video game sales. The goal of this project was 
