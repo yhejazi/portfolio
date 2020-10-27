@@ -8,6 +8,7 @@ import FunkoLogo from '../../assets/funko-logo.svg';
 import NikeLogo from '../../assets/nike-logo.svg';
 import SeiuLogo from '../../assets/seiu-logo.svg';
 import PemcoLogo from '../../assets/pemco-logo.svg';
+import TmobileLogo from '../../assets/tmobile-logo.svg';
 
 
 
@@ -16,6 +17,27 @@ const Experience = () => (
   <div className="experience py-5" id="experience">
     <Container>
       <h1 className="mono heading">Experience</h1>
+      <Row className="mb-5">
+        <Col md={6}>
+          <div className="experience-name">
+            <div className="experience-logo">
+             <img src={TmobileLogo} alt="T-mobile logo" />
+            </div>
+            <div>
+              <h4>T-Mobile</h4>
+              <div className="gray">Oct. 2020 – Present <br /> Bellevue, WA</div>
+            </div>
+          </div>
+        </Col>
+        <Col md={6}>
+          <h4>
+            Associate Product Manager
+          </h4>
+          <ul className="light-gray">
+          </ul>
+        </Col>
+      </Row>
+
       <Row>
         <Col md={6}>
           <div className="experience-name">
@@ -24,7 +46,7 @@ const Experience = () => (
             </div>
             <div>
               <h4>Funko</h4>
-              <div className="gray">Jan. 2020 – Present <br /> Everett, WA</div>
+              <div className="gray">Jan. 2020 – June 2020 <br /> Everett, WA</div>
             </div>
           </div>
         </Col>
