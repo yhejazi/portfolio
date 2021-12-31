@@ -17,7 +17,8 @@ const Experience = () => (
   <div className="experience py-5" id="experience">
     <Container>
       <h1 className="mono heading">Experience</h1>
-      <Row className="mb-5">
+
+      <Row className="mt-4">
         <Col md={6}>
           <div className="experience-name">
             <div className="experience-logo">
@@ -25,20 +26,48 @@ const Experience = () => (
             </div>
             <div>
               <h4>T-Mobile</h4>
-              <div className="gray">Oct. 2020 – Present <br /> Bellevue, WA</div>
+              <div className="gray">Oct. 2021 – Present <br /> Bellevue, WA</div>
             </div>
           </div>
         </Col>
         <Col md={6}>
           <h4>
-            Associate Product Manager
+            Data Scientist
           </h4>
-          <ul className="light-gray">
-          </ul>
+          <p className="light-gray">
+            I am developing and managing an ML model evaluation tool product 
+            to be used across various enterprise projects. Furthermore, I am 
+            working on machine learning projects to predict mobile device purchasing.
+          </p>
         </Col>
       </Row>
 
-      <Row>
+      <Row className="mt-4">
+        <Col md={6}>
+          <div className="experience-name">
+            <div className="experience-logo">
+             <img src={TmobileLogo} alt="T-mobile logo" />
+            </div>
+            <div>
+              <h4>T-Mobile</h4>
+              <div className="gray">Oct. 2020 – October 2021 <br /> Bellevue, WA</div>
+            </div>
+          </div>
+        </Col>
+        <Col md={6}>
+          <h4>
+            Product Manager
+          </h4>
+          <p className="light-gray">
+          I mastered SAFe and Agile/Scrum methodology to collaborate cross-functionally 
+          and deliver new product solutions for the T-Mobile design system. Notably, 
+          I drove product telemetry implementation to achieve data-driven platform 
+          investments, backlog prioritization, and retail pain-point tracking.
+          </p>
+        </Col>
+      </Row>
+
+      <Row className="mt-4">
         <Col md={6}>
           <div className="experience-name">
             <div className="experience-logo">
@@ -52,16 +81,16 @@ const Experience = () => (
         </Col>
         <Col md={6}>
           <h4>
-            Product Development Coordinator
+            Product Development Manager
           </h4>
-          <ul className="light-gray">
-            <li>Managing product development in cross-functional team for 120+ product lines, $16M in revenue</li>
-            <li>Determining product and stakeholder requirements between artists, licensors, factories, and retailers</li>
-            <li>Heading product with multiple notable licensors: Warner Bros, Sanrio, Nickelodeon, &amp; Sony Pictures</li>
-            <li>Driving packaging and costing standardization of Pop! products across all Funko factories</li>
-          </ul>
+          <p className="light-gray">
+            I managed Pop! product development for 120+ product lines, $16M in 
+            revenue. I was in charge of products of multiple notable licensors: 
+            Warner Bros, Sanrio, Nickelodeon, &amp; Sony Pictures.
+          </p>
         </Col>
       </Row>
+
       <Row className="mt-4">
         <Col md={6}>
           <div className="experience-name">
@@ -78,36 +107,15 @@ const Experience = () => (
           <h4>
             Software Engineer Intern
           </h4>
-          <ul className="light-gray">
-            <li>Led feature discovery and data modeling to be used to improve WiFi network for new Nike HQ buildings</li>
-            <li>Improved computer jobs efficiency by identifying 60% of cause of failures using machine learning</li>
-            <li>1st place Hack72 Hackathon winner, creating innovative RFID fitting room experience using React</li>
-          </ul>
+          <p className="light-gray">
+            I improved batch jobs efficiency by identifying 60% of cause of 
+            failures and prediction with machine learning. I also won 1st place 
+            at Nike's Hack72 Hackathon by creating an innovative RFID fitting room 
+            experience using React.
+          </p>
         </Col>
       </Row>
-      <Row className="mt-4">
-        <Col md={6}>
-          <div className="experience-name">
-            <div className="experience-logo">
-             <img src={SeiuLogo} alt="SEIU logo" />
-            </div>
-            <div>
-              <h4>SEIU Benefits Group</h4>
-              <div className="gray">Jan. 2019 – June 2019 <br /> Seattle, WA</div>
-            </div>
-          </div>
-        </Col>
-        <Col md={6}>
-          <h4>
-            Data Analyst Intern
-          </h4>
-          <ul className="light-gray">
-            <li>Lead role in sponsored Capstone project to analyze prevalence of chronic diseases in home care aides</li>
-            <li>Identified 5 key demographics for business needs through statistical analysis, validation, &amp; dashboarding</li>
-            <li>Developed effective communication strategies to maintain productive collaboration between five teams</li>
-          </ul>
-        </Col>
-      </Row>
+
       <Row className="mt-4">
         <Col md={6}>
           <div className="experience-name">
@@ -124,17 +132,38 @@ const Experience = () => (
           <h4>
             Data Analyst Intern
           </h4>
-          <ul className="light-gray">
-            <li>Improved Auto Claims program performance by 25% by analyzing areas of inefficiencies</li>
-            <li>Introduced automated approach to clean and mine multi-year claims data</li>
-            <li>Exceeded project base requirements &amp; presented key outcomes of analysis to company executives</li>
-          </ul>
+          <p className="light-gray">
+            I improved an auto claims program's performance by 25% by analyzing 
+            areas of inefficiencies and introducing automated approaches to 
+            cleaning and mining big claims data.
+          </p>
         </Col>
       </Row>
     </Container>
     <Container className="mt-5">
       <h1 className="mono heading">Education</h1>
-      <Row>
+      <Row className="mt-4">
+        <Col md={6}>
+          <div className="experience-name">
+            <div className="experience-logo">
+              <img src={UwLogo} alt="Berkeley logo" />
+            </div>
+            <div>
+              <h4>University of California, Berkeley</h4>
+              <div className="gray">Dec. 2022 <br /> Berkeley, CA</div>
+            </div>
+          </div>
+        </Col>
+        <Col md={6}>
+          <h4>
+            Master in Information and Data Science
+          </h4>
+          <p className="gray">
+            GPA 4.0 | Part Time
+          </p>
+        </Col>
+      </Row>
+      <Row className="mt-4">
         <Col md={6}>
           <div className="experience-name">
             <div className="experience-logo">
@@ -164,7 +193,7 @@ const Experience = () => (
             </div>
             <div>
               <h4>Udacity</h4>
-              <div className="gray">Jan. 2019 – Present</div>
+              <div className="gray">Jan. 2019 – April 2020</div>
             </div>
           </div>
         </Col>

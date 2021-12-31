@@ -13,14 +13,13 @@ const About = () => (
         <Col lg>
           <h1 className="mono">About Me</h1>
           <p>
-          My name is Yasmine, and I am a product manager, data scientist, and visualization nerd. 
-          I am a 2019 University of Washington graduate with a dual degree in Informatics &amp; 
-          Linguistics. 
+          I'm an industry professional and student in the fields of data science and product management.
+          I have a dual degree in Informatics &amp; Linguistics from the University of Washington and 
+          I'm completing my Data Science Masters at UC Berkeley.
           <br /> <br />
-          When I’m not working or coding, I write on Medium. I am currently a budding writer in 
-          publications such as The Startup &amp; Towards Data Science. Outside of work, I am an avid 
-          dancer, baker, and Magic: The Gathering enthusiast. You can often find me on the World of 
-          Warcraft Classic realm.
+          Outside of work, I volunteer to develop video games for charity and I write articles 
+          for publications like Towards Data Science &amp; The Startup. You can frequently find me 
+          at the tennis courts or board game cafes. :)
           </p>
         </Col>
         <Col xs>

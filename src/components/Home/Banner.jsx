@@ -19,7 +19,7 @@ const Banner = () => (
       <div className="banner-content">
         <div className="who-am-i">
           <h1 className="display-1">Hi, I'm Yasmine</h1>
-          <h2 className="mono">Product Manager &amp; Data Scientist</h2>
+          <h2 className="mono">Data Scientist &amp; Product Manager</h2>
         </div>
         <div className="scroll-down">
           <Button onClick={() => zenscroll.center(document.getElementById("about"))}>

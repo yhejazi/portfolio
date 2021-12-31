@@ -8,6 +8,7 @@ import vgSalesPhoto from '../../assets/project-vg-sales.png';
 import tvPhoto from '../../assets/project-tv.jpg';
 import sbuxPhoto from '../../assets/project-sbux.jpeg';
 import magicPhoto from '../../assets/project-magic.jpeg';
+import bgPhoto from '../../assets/project-bg.jpeg';
 
 const Projects = () => (
   <div className="py-5" id="projects">
@@ -16,10 +17,21 @@ const Projects = () => (
     </Container>
     <Container className="bg-white">
         <ProjectCard
+          title="User Satisfaction on Board Game Complexity"
+          image={bgPhoto}
+          description="A research design and statistical modeling report on 
+          user board game ratings by game complexity. This project includes 
+          multiple web scrapers for BoardGameGeek.com and utilizes scraped board 
+          game info and rating data to achieve regression analysis and modeling 
+          goals."
+          github="https://github.com/yhejazi/board-game-ratings"
+        />
+        <hr />
+        <ProjectCard
           title="Starbucks Nutrition Scrape &amp; EDA"
           image={sbuxPhoto}
-          description="I built a web scraper for Starbucks drinks nutrition data from its latest 
-          menu. I used this data to generate an EDA notebook and compare nutrition findings to FDA 
+          description="A web scraper for Starbucks drinks nutrition data from its latest 
+          menu. Scraped data was used to generate a notebook that compares nutrition analysis to FDA 
           suggested DVs to determine general health guidelines for your Starbucks drink."
           publication="Publication: The Startup"
           github="https://github.com/yhejazi/starbucks-nutrition"
@@ -29,7 +41,7 @@ const Projects = () => (
         <ProjectCard
           title="Magic: The Gathering Card Web Scraper"
           image={magicPhoto}
-          description="This is a web scraper that collects data of all Magic: The Gathering cards on 
+          description="A web scraper that collects data of all Magic: The Gathering cards on 
           Wizards of the Coast's Gatherer website."
           github="https://github.com/yhejazi/mtg-web-scraper"
         />
@@ -37,7 +49,7 @@ const Projects = () => (
         <ProjectCard
           title="Dog Breed Classification App"
           image={dogPhoto}
-          description="I built a pipeline that includes pre-prossessing user-supplied images and 
+          description="A pipeline that includes pre-prossessing user-supplied images and 
           using a CNN to classify dog breeds. Given an image of a dog, the algorithm will identify 
           an estimate of the canine’s breed. If supplied an image of a human, the code will identify 
           the resembling dog breed."
@@ -47,8 +59,8 @@ const Projects = () => (
         <ProjectCard
           title="Fake TV Script Generator"
           image={tvPhoto}
-          description="I generated my own Seinfeld TV scripts using RNNs. I used a Seinfeld dataset 
-          of scripts from 9 seasons to train the network to generate a new, 
+          description="A generation of my own Seinfeld TV scripts using RNNs. A Seinfeld dataset 
+          of scripts from 9 seasons was used to train the network to generate a new, 
           &quot;fake&quot; TV script."
           github="https://github.com/yhejazi/deep-learning-nd/tree/master/project-tv-script-generation"
         />
@@ -56,7 +68,7 @@ const Projects = () => (
         <ProjectCard
           title="Fake Human Face Generator"
           image={facesPhoto}
-          description="I defined and trained a DCGAN on a dataset of faces. I created a generator 
+          description="Defined and trained a DCGAN on a dataset of faces. I created a generator 
           network to generate new images of faces that look as realistic as possible. When 
           visualizing results, my generated samples look like fairly realistic faces with little noise."
           github="https://github.com/yhejazi/deep-learning-nd/tree/master/project-face-generation"
@@ -65,8 +77,8 @@ const Projects = () => (
         <ProjectCard
           title="Video Game Sales Interactive Visualization"
           image={vgSalesPhoto}
-          description="My team implemented the interactive technique of a bubble chart using Javascript 
-          and D3 in order to allow user exploration of video game sales. The goal of this project was 
+          description="An implemented bubble chart interactive visualization using Javascript 
+          and D3 to allow user exploration of video game sales. The goal of this project was 
           to document and iterate the effectiveness of specific visualization techniques re-implemented in 
           the context of the data domain."
           github="https://github.com/yhejazi/info474/tree/master/a3"
