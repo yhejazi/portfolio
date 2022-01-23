@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ced5defc5d8dabd3fe97da83fa3862b0",
+    "revision": "8aefd3627c99e983ecede774da81219c",
     "url": "/index.html"
   },
   {
-    "revision": "ebe24292af1fd02b700f",
+    "revision": "bc71e3082367678968ca",
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "f4a1f219f9b79c2d08c4",
+    "revision": "3b2afa9ff1012b378f45",
     "url": "/static/css/main.ee5d689d.chunk.css"
   },
   {
-    "revision": "ebe24292af1fd02b700f",
-    "url": "/static/js/2.d18f8ed4.chunk.js"
+    "revision": "bc71e3082367678968ca",
+    "url": "/static/js/2.c792284c.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.d18f8ed4.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c792284c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f4a1f219f9b79c2d08c4",
-    "url": "/static/js/main.bccd8f5c.chunk.js"
+    "revision": "3b2afa9ff1012b378f45",
+    "url": "/static/js/main.026e5b63.chunk.js"
   },
   {
     "revision": "9b4452dcf5ff001e0742",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cbfb1a3cc6b97bd841b22636a1835361",
     "url": "/static/media/banner-bg.cbfb1a3c.jpg"
+  },
+  {
+    "revision": "1d51e5022272f539bac330450fed2e62",
+    "url": "/static/media/berkeley-logo.1d51e502.svg"
   },
   {
     "revision": "2018bc20ab20338a58aeb32c8d8eda8a",
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cb2cb974b17ac04300bf30e5a2061113",
     "url": "/static/media/profile.cb2cb974.jpg"
+  },
+  {
+    "revision": "a1488090b1cea23c9036e8d851914baf",
+    "url": "/static/media/project-bg.a1488090.jpeg"
   },
   {
     "revision": "949d738297f0f9d459d0edabd47ed88d",
@@ -88,7 +96,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/uw-logo.ae08d459.svg"
   },
   {
-    "revision": "4030f5fc01494fafdac06cfe57afe3fa",
-    "url": "/static/media/yasmine-hejazi-resume.4030f5fc.pdf"
+    "revision": "aa5271f83099099cf22ac565e58dcf95",
+    "url": "/static/media/yasmine-hejazi-resume.aa5271f8.pdf"
   }
 ]);

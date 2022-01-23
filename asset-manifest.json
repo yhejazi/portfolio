@@ -1,24 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.ee5d689d.chunk.css",
-    "main.js": "/static/js/main.bccd8f5c.chunk.js",
-    "main.js.map": "/static/js/main.bccd8f5c.chunk.js.map",
+    "main.js": "/static/js/main.026e5b63.chunk.js",
+    "main.js.map": "/static/js/main.026e5b63.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.79c938e6.js",
     "runtime-main.js.map": "/static/js/runtime-main.79c938e6.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.d18f8ed4.chunk.js": "/static/js/2.d18f8ed4.chunk.js",
-    "static/js/2.d18f8ed4.chunk.js.map": "/static/js/2.d18f8ed4.chunk.js.map",
+    "static/js/2.c792284c.chunk.js": "/static/js/2.c792284c.chunk.js",
+    "static/js/2.c792284c.chunk.js.map": "/static/js/2.c792284c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.91c46db4e9aad7dc7cc1a3338d59d1f4.js": "/precache-manifest.91c46db4e9aad7dc7cc1a3338d59d1f4.js",
+    "precache-manifest.8129d5105ae6c91c68fa7a9ab04fa155.js": "/precache-manifest.8129d5105ae6c91c68fa7a9ab04fa155.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.ee5d689d.chunk.css.map": "/static/css/main.ee5d689d.chunk.css.map",
-    "static/js/2.d18f8ed4.chunk.js.LICENSE.txt": "/static/js/2.d18f8ed4.chunk.js.LICENSE.txt",
+    "static/js/2.c792284c.chunk.js.LICENSE.txt": "/static/js/2.c792284c.chunk.js.LICENSE.txt",
     "static/media/banner-bg.jpg": "/static/media/banner-bg.cbfb1a3c.jpg",
+    "static/media/berkeley-logo.svg": "/static/media/berkeley-logo.1d51e502.svg",
     "static/media/funko-logo.svg": "/static/media/funko-logo.2018bc20.svg",
     "static/media/nike-logo.svg": "/static/media/nike-logo.1c685462.svg",
     "static/media/pemco-logo.svg": "/static/media/pemco-logo.66c6337f.svg",
     "static/media/profile.jpg": "/static/media/profile.cb2cb974.jpg",
+    "static/media/project-bg.jpeg": "/static/media/project-bg.a1488090.jpeg",
     "static/media/project-chronic.png": "/static/media/project-chronic.949d7382.png",
     "static/media/project-dog.jpg": "/static/media/project-dog.af8a8f54.jpg",
     "static/media/project-faces.jpg": "/static/media/project-faces.54ac75de.jpg",
@@ -29,13 +31,13 @@
     "static/media/tmobile-logo.svg": "/static/media/tmobile-logo.8d953356.svg",
     "static/media/udacity-logo.svg": "/static/media/udacity-logo.c087a9aa.svg",
     "static/media/uw-logo.svg": "/static/media/uw-logo.ae08d459.svg",
-    "static/media/yasmine-hejazi-resume.pdf": "/static/media/yasmine-hejazi-resume.4030f5fc.pdf"
+    "static/media/yasmine-hejazi-resume.pdf": "/static/media/yasmine-hejazi-resume.aa5271f8.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.79c938e6.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.d18f8ed4.chunk.js",
+    "static/js/2.c792284c.chunk.js",
     "static/css/main.ee5d689d.chunk.css",
-    "static/js/main.bccd8f5c.chunk.js"
+    "static/js/main.026e5b63.chunk.js"
   ]
 }
