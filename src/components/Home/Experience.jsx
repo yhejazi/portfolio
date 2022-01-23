@@ -9,6 +9,7 @@ import NikeLogo from '../../assets/nike-logo.svg';
 import SeiuLogo from '../../assets/seiu-logo.svg';
 import PemcoLogo from '../../assets/pemco-logo.svg';
 import TmobileLogo from '../../assets/tmobile-logo.svg';
+import BerkeleyLogo from '../../assets/berkeley-logo.svg';
 
 
 
@@ -37,7 +38,8 @@ const Experience = () => (
           <p className="light-gray">
             I am developing and managing an ML model evaluation tool product 
             to be used across various enterprise projects. Furthermore, I am 
-            working on machine learning projects to predict mobile device purchasing.
+            piloting machine learning projects to predict mobile device purchasing
+            and retail promotion impacts to call centers.
           </p>
         </Col>
       </Row>
@@ -50,7 +52,7 @@ const Experience = () => (
             </div>
             <div>
               <h4>T-Mobile</h4>
-              <div className="gray">Oct. 2020 – October 2021 <br /> Bellevue, WA</div>
+              <div className="gray">Oct. 2020 – Oct. 2021 <br /> Bellevue, WA</div>
             </div>
           </div>
         </Col>
@@ -59,7 +61,7 @@ const Experience = () => (
             Product Manager
           </h4>
           <p className="light-gray">
-          I mastered SAFe and Agile/Scrum methodology to collaborate cross-functionally 
+          I mastered SAFe and Agile/Scrum methodologies to collaborate cross-functionally 
           and deliver new product solutions for the T-Mobile design system. Notably, 
           I drove product telemetry implementation to achieve data-driven platform 
           investments, backlog prioritization, and retail pain-point tracking.
@@ -146,7 +148,7 @@ const Experience = () => (
         <Col md={6}>
           <div className="experience-name">
             <div className="experience-logo">
-              <img src={UwLogo} alt="Berkeley logo" />
+              <img src={BerkeleyLogo} alt="Berkeley logo" />
             </div>
             <div>
               <h4>University of California, Berkeley</h4>
@@ -193,7 +195,7 @@ const Experience = () => (
             </div>
             <div>
               <h4>Udacity</h4>
-              <div className="gray">Jan. 2019 – April 2020</div>
+              <div className="gray">Jan. 2019 – Apr. 2020</div>
             </div>
           </div>
         </Col>

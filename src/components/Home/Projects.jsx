@@ -44,6 +44,7 @@ const Projects = () => (
           description="A web scraper that collects data of all Magic: The Gathering cards on 
           Wizards of the Coast's Gatherer website."
           github="https://github.com/yhejazi/mtg-web-scraper"
+          blog="https://codeburst.io/i-scraped-every-existing-magic-the-gathering-card-3207e72080ce"
         />
         <hr />
         <ProjectCard
