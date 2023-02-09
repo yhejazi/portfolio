@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1bf9fa64e726b098e05e4504e8ac8b7",
+    "revision": "ac82e0fe110694a744fd3d3561d4f4bf",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "8cff4ddec68fcbd78668",
+    "revision": "80a65c5a8e1df8426ff4",
     "url": "/static/css/main.ee5d689d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.c792284c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8cff4ddec68fcbd78668",
-    "url": "/static/js/main.f252c501.chunk.js"
+    "revision": "80a65c5a8e1df8426ff4",
+    "url": "/static/js/main.2355e8cc.chunk.js"
   },
   {
     "revision": "9b4452dcf5ff001e0742",
@@ -96,7 +96,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/uw-logo.ae08d459.svg"
   },
   {
-    "revision": "4880271d0b53c462bc93edfe4982d693",
-    "url": "/static/media/yasmine-hejazi-resume.4880271d.pdf"
+    "revision": "db8724a6abb1e2ae398e9d71bf362609",
+    "url": "/static/media/yasmine-hejazi-resume.db8724a6.pdf"
   }
 ]);
